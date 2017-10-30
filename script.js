@@ -36,27 +36,25 @@ function responsive(n) {
     if ($(window).width() < 350) {
         $(".heading .center").css("background", "url(images/logo_mini.png) no-repeat top left");
         $(".navbar .right").css("background", "url(images/head_c2.png) repeat-x top left");
-		$(".logo").addClass("logo-mn");
-		$("#smallnav").attr("display","block");
+        $(".logo").css("width","120px");
+        $("#smallnav").attr("display","block");
 		$(".mainnav").addClass("mainnav-r1");
     } else if ($(window).width() < 600) {
         $(".heading .center").css("background", "url(images/logo_mini.png) no-repeat top left");
         $(".navbar .right").css("background", "url(images/head_c2.png) repeat-x top left");
-		$(".logo").addClass("logo-mn");
+        $(".logo").css("width","120px");
 		$("#smallnav").css("display","block");
 		$(".mainnav").addClass("mainnav-r1");
     } else if ($(window).width() < 1050) {
         $(".heading .center").css("background", "url(images/logo_short.png) no-repeat top left");
         $(".navbar .right").css("background", "url(images/head_c2.png) repeat-x top left");
-		$(".logo").removeClass("logo-mn");
-		$(".logo").addClass("logo-half");
+        $(".logo").css("width","150px");
 		$("#smallnav").css("display","block");
 		$(".mainnav").addClass("mainnav-r1");
     } else if ($(window).width() < 1250) {
         $(".heading .center").css("background", "url(images/logo.png) no-repeat top left");
         $(".navbar .right").css("background", "url(images/head_r2.png) no-repeat top left");
-		$(".logo").removeClass("logo-half");
-		$(".logo").removeClass("logo-mn");
+        $(".logo").css("width","auto");
 		$("#smallnav").css("display","none");
 		$(".mainnav").removeClass("mainnav-r1");
 		$(".mainnav").removeClass("open");
@@ -64,8 +62,7 @@ function responsive(n) {
         $(".heading .center").css("background", "url(images/logo.png) no-repeat top left");
         $(".navbar .right").css("background", "url(images/head_r2.png) no-repeat top left");
 		$("#smallnav").css("display","none");
-		$(".logo").removeClass("logo-half");
-		$(".logo").removeClass("logo-mn");
+        $(".logo").css("width","auto");
 		$(".mainnav").removeClass("mainnav-r1");
 		$(".mainnav").removeClass("open");
     }

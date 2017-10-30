@@ -96,28 +96,6 @@ tr:nth-child(even) {
 	z-index:100;
 }
 
-.logo-half {
-	top:-20px;
-	left:-10px;
-	-webkit-transform: scale(0.7); /* Saf3.1+, Chrome */
-	-moz-transform: scale(0.7); /* FF3.5+ */
-	-ms-transform: scale(0.7); /* IE9 */
-	-o-transform: scale(0.7); /* Opera 10.5+ */
-	transform: scale(0.7); /* IE6–IE9 */
-	filter: progid:DXImageTransform.Microsoft.Matrix(M11=0.9999619230641713, M12=-0.008726535498373935, M21=0.008726535498373935, M22=0.9999619230641713,SizingMethod='auto expand');
-}​
-
-.logo-mn {
-	top:-30px;
-	left:-20px;
-	-webkit-transform: scale(0.5); /* Saf3.1+, Chrome */
-	-moz-transform: scale(0.5); /* FF3.5+ */
-	-ms-transform: scale(0.5); /* IE9 */
-	-o-transform: scale(0.5); /* Opera 10.5+ */
-	transform: scale(0.5); /* IE6–IE9 */
-	filter: progid:DXImageTransform.Microsoft.Matrix(M11=0.9999619230641713, M12=-0.008726535498373935, M21=0.008726535498373935, M22=0.9999619230641713,SizingMethod='auto expand');
-}​
-
 .heading, .heading .left, .heading .center, .heading .right {
     height:173px;
 }

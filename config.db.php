@@ -7,7 +7,7 @@
  */
 
 $dbhost = "localhost";
-$dbuser = "";
+$dbuser = "root";
 $dbpass = "";
 $dbname = "grad2559";
 

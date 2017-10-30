@@ -19,9 +19,9 @@ switch ($_COOKIE['lang']) {
  */
 require_once './config.db.php';
 require_once './functions.php';
-$con = mysql_connect($dbhost, $dbuser, $dbpass);
-mysql_select_db($dbname);
-mysql_query("SET NAMES UTF8", $con);
+$con = mysqli_connect($dbhost, $dbuser, $dbpass);
+mysqli_select_db($con,$dbname);
+mysqli_query($con,"SET NAMES UTF8");
 ?>
 <!DOCTYPE html>
 <!--
