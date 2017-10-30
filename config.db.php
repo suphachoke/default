@@ -8,7 +8,7 @@
 
 $dbhost = "localhost";
 $dbuser = "root";
-$dbpass = "";
+$dbpass = "1234";
 $dbname = "grad2559";
 
 $web_host = "grad.cas.ac.th";
