@@ -31,7 +31,7 @@ and open the template in the editor.
 -->
 <html>
     <head>
-        <title>บัณฑิตวิทยาลัย วิทยาลัยบัณฑิตเอเซีย :: Graduate School, College of Asian Scholars</title>
+        <title>ชื่อหน่วยงานภายใน ชื่อองค์กรหลัก :: Department Name, Organization Name</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <!--<link rel="stylesheet" type="text/css" href="fonts/thsarabun/thsarabunnew.css"/>-->
